@@ -17,16 +17,27 @@
 }
 
 .character header {
-  background: #ddd;
+  background: rgb(107, 151, 179);
   line-height: 1.5em;
   text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  color: #111;
 }
+
+.charName {
+  flex: 0 0 auto;
+  /* align-content: center; */
+  /* above not working for some reason */
+}
+
 
 .character span {
   display: block;
   font-size: 1.5em;
   font-weight: bold;
-  line-height: 2.5em;
+  line-height: 2.25em;
   text-align: center;
 }
 
@@ -34,4 +45,5 @@
   display: block;
   margin: .5em auto;
   width: 50%;
+  background: rgb(107, 151, 179);
 }
