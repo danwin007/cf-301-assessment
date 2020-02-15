@@ -1,0 +1,37 @@
+.characters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.character {
+  background: #fff;
+  box-shadow: 0 10px 6px -6px #777;
+  margin: 1em;
+  width: 200px;
+  height: 125px;
+  flex-basis: 20%;
+  -ms-flex: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.character header {
+  background: #ddd;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.character span {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 2.5em;
+  text-align: center;
+}
+
+.character button {
+  display: block;
+  margin: .5em auto;
+  width: 50%;
+}
