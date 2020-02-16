@@ -9,7 +9,7 @@
   box-shadow: 0 10px 6px -6px #777;
   margin: 1em;
   width: 200px;
-  height: 125px;
+  height: 110px;
   flex-basis: 20%;
   -ms-flex: auto;
   position: relative;
@@ -18,7 +18,7 @@
 
 .character header {
   background: rgb(107, 151, 179);
-  line-height: 1.5em;
+  line-height: 1.25em;
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
@@ -32,12 +32,11 @@
   /* above not working for some reason */
 }
 
-
 .character span {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold;
-  line-height: 2.25em;
+  line-height: 2em;
   text-align: center;
 }
 
@@ -46,4 +45,11 @@
   margin: .5em auto;
   width: 50%;
   background: rgb(107, 151, 179);
+}
+
+.getMore {
+display: block;
+margin: auto;
+width: 50%;
+background: rgb(107, 151, 179);
 }
